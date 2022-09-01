@@ -7,4 +7,6 @@ class TestFile {
     fun bar() {}
 
     fun baz() {}
+
+    fun qux() {}
 }

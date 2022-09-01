@@ -10,7 +10,7 @@ class Tests {
     }
 
     @Test
-    fun shouldCheckBaz() {
-        TestFile().baz()
+    fun shouldCheckQux() {
+        TestFile().qux()
     }
 }
