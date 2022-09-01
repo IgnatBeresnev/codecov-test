@@ -5,4 +5,6 @@ class TestFile {
     fun foo() {}
 
     fun bar() {}
+
+    fun baz() {}
 }

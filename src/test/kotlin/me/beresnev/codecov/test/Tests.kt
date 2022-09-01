@@ -8,4 +8,9 @@ class Tests {
     fun shouldCheckFoo() {
         TestFile().foo()
     }
+
+    @Test
+    fun shouldCheckBaz() {
+        TestFile().baz()
+    }
 }
