@@ -7,6 +7,10 @@ repositories {
     mavenCentral()
 }
 
+kover {
+    engine.set(kotlinx.kover.api.DefaultJacocoEngine)
+}
+
 dependencies {
     implementation(kotlin("stdlib"))
     testImplementation(kotlin("test-junit"))
