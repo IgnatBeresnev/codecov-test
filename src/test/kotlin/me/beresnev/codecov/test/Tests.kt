@@ -21,6 +21,6 @@ class Tests {
 
     @Test
     fun checkNothing() {
-        // intellij cleaned old
+        // intellij with changed source file TestFile.kt
     }
 }
