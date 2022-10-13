@@ -13,4 +13,9 @@ class Tests {
     fun shouldCheckBaz() {
         TestFile().baz()
     }
+
+    @Test
+    fun shouldCheckQuxTrue() {
+        TestFile().qux(true)
+    }
 }

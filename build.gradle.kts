@@ -1,14 +1,10 @@
 plugins {
-    kotlin("jvm") version "1.6.21"
-    id("org.jetbrains.kotlinx.kover") version "0.6.0"
+    kotlin("jvm") version "1.7.20"
+    id("org.jetbrains.kotlinx.kover") version "0.6.1"
 }
 
 repositories {
     mavenCentral()
-}
-
-kover {
-    engine.set(kotlinx.kover.api.DefaultJacocoEngine)
 }
 
 dependencies {
