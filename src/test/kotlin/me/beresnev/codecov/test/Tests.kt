@@ -18,4 +18,9 @@ class Tests {
     fun shouldCheckQuxTrue() {
         TestFile().qux(true)
     }
+
+    @Test
+    fun checkNothing() {
+        // change
+    }
 }
