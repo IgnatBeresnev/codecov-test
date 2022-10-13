@@ -21,6 +21,6 @@ class Tests {
 
     @Test
     fun checkNothing() {
-        // jacoco without method line number
+        // intellij cleaned old
     }
 }
