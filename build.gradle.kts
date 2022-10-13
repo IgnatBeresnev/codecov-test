@@ -9,9 +9,9 @@ repositories {
     mavenCentral()
 }
 
-kover {
-    engine.set(DefaultJacocoEngine)
-}
+//kover {
+//    engine.set(DefaultJacocoEngine)
+//}
 
 dependencies {
     implementation(kotlin("stdlib"))
